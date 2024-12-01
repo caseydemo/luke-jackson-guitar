@@ -4,37 +4,39 @@ import Service from "./Service";
 
 const servicesData: ServiceItemProps[] = [
   {
-    title: "section 1",
-    key: "test",
-    value: "test",
+    title: "about",
+    description: "stuff about luke jackson",
+    featured_image: "this is the main image",
+    images: [],
   },
   {
-    title: "section 2",
-    key: "test",
-    value: "test",
+    title: "lessons",
+    description: "stuff about lessons",
+    featured_image: "test",
+    images: [],
   },
   {
-    title: "section 3",
-    key: "test",
-    value: "test",
+    title: "composition",
+    description: "stuff about compositions",
+    featured_image: "test",
+    images: [],
   },
   {
-    title: "section 4",
-    key: "test",
-    value: "test",
+    title: "performance",
+    description: "examples of this dinguses' performances",
+    featured_image: "test",
+    images: [],
   },
 ];
 
 export default function Services() {
   return (
     <div className="services">
-        {servicesData.map((value, index) => {
-            return (
-                // <div>donkey</div>
-                <Service key={index} props={value} />
-            )
-            // console.log('test')
-        })}
+      {servicesData.map((value, index) => {
+        return (
+          <Service key={index} props={value} />
+        );
+      })}
     </div>
   );
 }

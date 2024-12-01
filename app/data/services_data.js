@@ -1,22 +1,26 @@
 export default servicesData = [
   {
-    title: "section 1",
-    key: "test",
-    value: "test",
+    title: "about",
+    description: "test",
+    featured_image: "test",
+    images: []
   },
   {
     title: "section 2",
-    key: "test",
-    value: "test",
+    description: "test",
+    featured_image: "test",
+    images: []
   },
   {
     title: "section 3",
-    key: "test",
-    value: "test",
+    description: "test",
+    featured_image: "test",
+    images: []
   },
   {
     title: "section 4",
-    key: "test",
-    value: "test",
+    description: "test",
+    featured_image: "test",
+    images: []
   },
 ];
