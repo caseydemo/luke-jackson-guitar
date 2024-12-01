@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+// import "../node_modules"
+import '../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
+import '../node_modules/@glidejs/glide/dist/css/glide.theme.min.css';
 
 
 
