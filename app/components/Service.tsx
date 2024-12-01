@@ -6,11 +6,11 @@ export default function Service({ props }: any) {
     <div>
       <h2>{title}</h2>
       <div className="service_description">{description}</div>
-      <Image 
-        src={featured_image} 
-        alt="the image didnt load" 
-        height={200} 
-        width={200} 
+      <Image
+    	src={featured_image}
+        alt="the image didnt load"
+        height={200}
+        width={200}
       />
       <div className="service_images">{images}</div>
     </div>
