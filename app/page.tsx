@@ -1,13 +1,13 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import Hero from "./components/Hero";
-import Header from "./components/Header";
+import Services from "./components/Services";
 
 export default function Home() {
     return (
         <div className={styles.page}>
-            <Header />
-            <Hero />
+            {/* <Hero /> */}
+            <Services />
         </div>
     )
 }
