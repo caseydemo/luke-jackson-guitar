@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Carousel from "./Carousel";
+
 export default function Service({ props }: any) {
   const { title, description, featured_image, images } = props;
 
@@ -13,6 +15,9 @@ export default function Service({ props }: any) {
         width={200}
       />
       <div className="service_images">{images}</div>
+	  <Carousel >
+		{images}
+	  </Carousel>
     </div>
   );
 }
