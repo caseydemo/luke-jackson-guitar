@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import '../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
+import '../node_modules/@glidejs/glide/dist/css/glide.theme.min.css';
+
+
 
 
 export const metadata: Metadata = {
@@ -15,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* <Header /> */}
         {children}
+        {/* <Footer /> */}
       </body>
     </html>
   );
