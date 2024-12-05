@@ -2,7 +2,7 @@
 import Glide, { EventsBus } from "@glidejs/glide";
 import { useEffect, useRef, Children } from "react";
 import initGlide from "../lib/initGlide";
-import chevron from "../../public/svgs/chevron.svg";
+import chevron from "../../public/svgs/chevron_square.svg";
 import Image from "next/image";
 
 

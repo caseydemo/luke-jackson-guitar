@@ -1,3 +1,6 @@
-.footer {
-    width: 75%;
+footer {
+    border-top: 2px solid #171717;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
