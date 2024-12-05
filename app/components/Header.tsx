@@ -1,21 +1,15 @@
-import styles from "./header.module.css";
 export default function Header() {
-    return (        
-        <header className={styles.header}>
-            <a href='#default' className={styles.logo}>
-                CompanyLogo
-            </a>
-            <div className={styles.headerRight}>
-                <a href='#home'>
-                    Home
-                </a>
-                <a href='#about'>
-                    About
-                </a>
-                <a href='#music'>
-                    Music
-                </a>
-            </div>
-        </header>
-    );
+  return (
+    <header className="header">
+      <a href="#default" className="logo">
+        Luke Jackson - Guitar
+      </a>
+      <div className="header-right">
+        <a href="#private-instruction">Private Instruction</a>
+        <a href="#composition">Composition</a>
+        <a href="#performance">Performance</a>
+        <a href="#bio">Bio</a>
+      </div>
+    </header>
+  );
 }

@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import '../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
 import '../node_modules/@glidejs/glide/dist/css/glide.theme.min.css';
 import "./components/styles/carousel.css";
+import "./components/styles/header.css";
 
 
 
@@ -22,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <Header /> */}
+        <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
