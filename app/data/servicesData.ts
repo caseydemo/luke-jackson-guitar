@@ -7,8 +7,8 @@ export const servicesData: ServiceItemProps[] = [
     featured_image: "/luke_hero_image_1.jpg",
     images: [
       "/quartet_superheros.jpg",
-      "luke_and_cat.jpg",
-      "luke_and_old_man.jpg"
+      "/luke_and_cat.jpg",
+      "/luke_and_old_man.jpg"
     ]
   },
   {
@@ -17,8 +17,8 @@ export const servicesData: ServiceItemProps[] = [
     featured_image: "/luke_hero_image_1.jpg",
     images: [
       "/quartet_superheros.jpg",
-      "luke_and_cat.jpg",
-      "luke_and_old_man.jpg"
+      "/luke_and_cat.jpg",
+      "/luke_and_old_man.jpg"
     ]
   },
   {
@@ -27,8 +27,8 @@ export const servicesData: ServiceItemProps[] = [
     featured_image: "/luke_hero_image_1.jpg",
     images: [
       "/quartet_superheros.jpg",
-      "luke_and_cat.jpg",
-      "luke_and_old_man.jpg"
+      "/luke_and_cat.jpg",
+      "/luke_and_old_man.jpg"
     ]
   },
   {
@@ -37,8 +37,8 @@ export const servicesData: ServiceItemProps[] = [
     featured_image: "/luke_hero_image_1.jpg",
     images: [
       "/quartet_superheros.jpg",
-      "luke_and_cat.jpg",
-      "luke_and_old_man.jpg"
+      "/luke_and_cat.jpg",
+      "/luke_and_old_man.jpg"
     ]
   },
 ];
