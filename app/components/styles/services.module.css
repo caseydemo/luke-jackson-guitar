@@ -1,16 +1,14 @@
 .service_container {
     text-align: center;
-    padding: 20px;
+    padding: 80px 50px;
 }
 
 .service_title {
-    font-size: 1.5em;
+    font-size: 48px;
     font-weight: bold;
-}
-
-.service_title, .service_description {
     padding: 25px;
 }
+
 
 .service_description {
     text-align: center;

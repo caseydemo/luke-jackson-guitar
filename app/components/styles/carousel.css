@@ -1,6 +1,5 @@
-.ket-carousel-wrapper,
-.wp-block-ket-blocks-ket-carousel-new {
-    position: relative;
+.carousel-wrapper {
+    padding-top: 50px;
 }
 
 .glide--swipeable {
@@ -37,7 +36,7 @@
 }
 
 .carousel-dots {
-    padding: 40px;
+    padding: 40px 0px 15px 0px;
     display: flex;
     align-items: center;
     justify-content: center;

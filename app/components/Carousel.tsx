@@ -48,8 +48,8 @@ export default function Carousel({
 
 	// actual component being returned    
 	return (
-		<div className='ket-carousel-wrapper'>
-			<div className={`${addClasses} ket-carousel glide`} ref={ref}>
+		<div className='carousel-wrapper'>
+			<div className={`${addClasses} carousel glide`} ref={ref}>
 
 				{/* left chevron */}
 				<div className='glide__arrows' data-glide-el='controls' >
