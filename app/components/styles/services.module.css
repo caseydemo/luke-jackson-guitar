@@ -1,0 +1,27 @@
+.service_container {
+    text-align: center;
+    padding: 20px;
+}
+
+.service_title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.service_title, .service_description {
+    padding: 25px;
+}
+
+.service_description {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    width: 75%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.service_container:nth-child(odd) {
+    background-color: #616465;
+    color: white;
+}
