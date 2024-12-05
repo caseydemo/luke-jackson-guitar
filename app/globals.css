@@ -35,6 +35,17 @@ a {
   text-decoration: none;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

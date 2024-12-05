@@ -1,5 +1,15 @@
 export default function Footer() {
     return (
-        <h1>This is the footer</h1>
+        <footer className="grid-container" >
+            
+                <div className="grid-item" >1</div>
+                <div className="grid-item" >2</div>
+                <div className="grid-item" >3</div>
+            
+                <div className="grid-item" >1</div>
+                <div className="grid-item" >2</div>
+                <div className="grid-item" >3</div>
+            
+        </footer>
     )
 }

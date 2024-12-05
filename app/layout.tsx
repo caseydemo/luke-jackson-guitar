@@ -6,6 +6,7 @@ import '../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
 import '../node_modules/@glidejs/glide/dist/css/glide.theme.min.css';
 import "./components/styles/carousel.css";
 import "./components/styles/header.css";
+import "./components/styles/footer.css";
 
 
 
