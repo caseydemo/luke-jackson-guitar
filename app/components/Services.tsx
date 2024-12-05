@@ -22,9 +22,14 @@ export default function Services() {
                             />
                         ))}
                     </Carousel>
+
+                    <p className={styles.service_blerb}>
+                        {service.blerb}
+                    </p>                    
+                    
                     <details className={styles.service_description}>
                         <summary>
-                            <strong>Details</strong>
+                            <strong>Learn More</strong>
                         </summary>
                         <p>
                         {service.description}
