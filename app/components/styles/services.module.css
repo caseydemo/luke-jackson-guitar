@@ -4,9 +4,11 @@
 }
 
 .service_title {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
     padding: 25px;
+    word-wrap: break-word;
+    line-height: 35px;
 }
 
 
@@ -22,4 +24,16 @@
 .service_container:nth-child(odd) {
     background-color: #616465;
     color: white;
+}
+
+/* add 75px margin top to the very first .service_container on desktop only*/
+@media (min-width: 768px) {
+    .service_container:first-child {
+        margin-top: 75px;
+    }
+    .service_title {
+        font-size: 48px;
+        font-weight: bold;
+        padding: 25px;
+    }
 }

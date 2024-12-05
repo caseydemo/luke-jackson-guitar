@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 import Image from "next/image";
 export default function Services() {
     return (
-        <div>
+        <section>
             {servicesData.map((service, index) => (
                 <div
                     key={index}
@@ -32,6 +32,6 @@ export default function Services() {
                     </details>
                 </div>
             ))}
-        </div>
+        </section>
     );
 }

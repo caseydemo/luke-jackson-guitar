@@ -5,9 +5,9 @@ import Services from "./components/Services";
 
 export default function Home() {
     return (
-        <div className={styles.page}>
+        <main className={styles.page}>
             <Services />
             {/* <Hero /> */}
-        </div>
+        </main>
     )
 }
