@@ -41,3 +41,6 @@ next-env.d.ts
 
 # lock file
 package-lock.json
+
+# static files
+_static/*
