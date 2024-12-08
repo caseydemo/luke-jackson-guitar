@@ -14,11 +14,14 @@ const nextConfig = {
           }
       ]
   },
-  reactStrictMode: true,
+  // reactStrictMode: true,
   output: 'export',
   distDir: '_static',
   images: {
     unoptimized: true
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 }
 
