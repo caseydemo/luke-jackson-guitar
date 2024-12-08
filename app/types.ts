@@ -1,7 +1,7 @@
 export type ServiceItemProps = {
-    title: String
-    description: String
-    blerb: String
-    featured_image: String
+    title: string
+    description: string
+    blerb: string
+    featured_image: string
     images: Array<string>
 }
